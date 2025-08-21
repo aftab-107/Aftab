@@ -28,7 +28,7 @@
 <body>
   <header>
 
-  <h1 class="he">ITStudent</h1>
+  <h1 class="he">AFTAB ALAM</h1>
   <div class="menu-toggle" id="mobile-menu">
     <span class="bar"></span>
     <span class="bar"></span>
@@ -66,7 +66,7 @@ I specialize in building responsive, high-performance web applications using Jav
       </div>
     </div>
     <div class="image">
-      <img src="image/IMG_20241224_115147.jpg" alt="Mark" />
+      <img src="image/Aftab.jpeg" alt="Mark" />
     </div>
   </section>
   <!-- Inside your <body> -->
@@ -124,15 +124,12 @@ I specialize in building responsive, high-performance web applications using Jav
        </section>
 
      <section id="projects" tabindex="-1" aria-labelledby="projects-title">
+  <h2 id="projects-title">Projects</h2>
+  <div class="projects-grid" role="list">
 
-
-         <div class="project">    
-      <h2 id="projects-title">Projects</h2>
-        <div class="projects-grid" role="list">
-    
-       <article class="project-card" role="listitem" tabindex="0" aria-labelledby="project1-title" aria-describedby="project1-desc">
-         <img src="image/image.png" alt="Screenshot of personal portfolio website project" class="project-image" />
-        <div class="project-content">
+    <article class="project-card" role="listitem" tabindex="0" aria-labelledby="project1-title" aria-describedby="project1-desc">
+      <img src="image/image.png" alt="Screenshot of personal portfolio website project" class="project-image" />
+      <div class="project-content">
         <h3 id="project1-title" class="project-title">Personal Portfolio Website</h3>
         <p id="project1-desc" class="project-description">
           Created a fully responsive and accessible portfolio website using HTML and modern CSS techniques. Implemented smooth animations and interactive UI components.
@@ -144,11 +141,11 @@ I specialize in building responsive, high-performance web applications using Jav
     </article>
 
     <article class="project-card" role="listitem" tabindex="0" aria-labelledby="project2-title" aria-describedby="project2-desc">
-      <img src="image/Smart.png" alt="Screenshot of task manager app project" class="project-image" />
+      <img src="image/Smart.png" alt="Screenshot of smart campus system project" class="project-image" />
       <div class="project-content">
         <h3 id="project2-title" class="project-title">Smart Campus Surveillance & Guidance System</h3>
         <p id="project2-desc" class="project-description">
-         Developed an intelligent campus monitoring system using Spring Boot and Angular, integrated with machine learning models and MongoDB. The system detects unauthorized access, identifies students outside classrooms during class hours, and guides them with real-time notifications. Designed to enhance security and student discipline across the campus
+          Developed an intelligent campus monitoring system using Spring Boot and Angular, integrated with machine learning models and MongoDB. The system detects unauthorized access, identifies students outside classrooms during class hours, and guides them with real-time notifications.
         </p>
         <div class="project-links">
           <a href="https://github.com/yourgithub/task-manager" target="_blank" rel="noopener" class="project-link">GitHub</a>
@@ -167,27 +164,24 @@ I specialize in building responsive, high-performance web applications using Jav
           <a href="https://github.com/yourgithub/weather-dashboard" target="_blank" rel="noopener" class="project-link">GitHub</a>
         </div>
       </div>
-      </article>
+    </article>
 
-      </div>
+  </div>
+</section>
       <section id="contact" tabindex="-1" aria-labelledby="contact-title">
-      <h2 id="contact-title">Contact Me</h2>
-      <form class="contact-form" aria-label="Contact form" onsubmit="event.preventDefault(); alert('Thank you for reaching out! I will get back to you soon.'); this.reset();">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required aria-required="true" placeholder="Your full name" />
+  <h2 id="contact-title">Contact Me</h2>
+  <form class="contact-form" aria-label="Contact form" onsubmit="event.preventDefault(); alert('Thank you for reaching out! I will get back to you soon.'); this.reset();">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required aria-required="true" placeholder="Your full name" />
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required aria-required="true" placeholder="your.email@example.com" />
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required aria-required="true" placeholder="your.email@example.com" />
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required aria-required="true" placeholder="Write your message here..."></textarea>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required aria-required="true" placeholder="Write your message here..."></textarea>
 
-        <button type="submit" onclick="sendMail()">Send Message</button>
-      </form>
-
-    
-      </section>
-    </div>
+    <button type="submit" onclick="sendMail()">Send Message</button>
+  </form>
 </section>
 
 
@@ -204,4 +198,3 @@ I specialize in building responsive, high-performance web applications using Jav
 
 </body>
 </html>
-
